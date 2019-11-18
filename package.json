@@ -1,0 +1,21 @@
+{
+  "name": "wakemeup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.15",
+    "morgan": "^1.9.1",
+    "shelljs": "^0.8.3",
+    "ws": "^7.2.0"
+  }
+}

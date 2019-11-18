@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wake me up</title>
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script/qrcode.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h2 class="title">Wake me up!</h2>
+            <p class="subtitle">Devices list</p>
+        </header>
+        <section>
+            <ul class="device" id="devices">
+            </ul>
+        </section>
+    </div>
+
+    <div class="wireless">
+        <div class="group">
+            <h2>Quick Connect</h2>
+            <p>Scan the QR code to connect to your device</p>
+        </div>
+        <div class="qr">
+            <div id="qrcode">
+            </div>
+        </div>
+    </div>
+
+    <div class="image-view">
+        <div class="image">
+            <img width="400" id="image">
+        </div>
+    </div>
+
+    <button id="button-refresh">Refresh</button>
+    <script src="script/main.js"></script>
+
+
+</body>
+
+</html>
